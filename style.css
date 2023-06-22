@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* BANNER */
+.banner{
+    background-image: url('./images/banner-pic.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 95vh;
+}
+.divider{
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 65vw;
+    height: 95vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: skewX(-9deg);
+    transform-origin: top right;
+}
+
+h1{
+    font-size: 100px;
+    color: #87f867;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    color: #87f867;
+}
+
+/* FOOTER */
+footer{
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h4{
+    color: white;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+footer h4 a{
+    color: #87f867;
+    text-decoration: none;
+}
+footer h4 a:hover{
+    color: white;
+}
+/* ICONS */
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #87f867;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.icon-circle:hover{
+    background-color: white;
+}
+.icon-circle i{
+    font-size: 20px;
+    color: black;
+}
+
+/* MEDIA MOBILE */
+@media (max-width: 576px){
+    .divider{
+        width: 100%;
+    }
+    .banner{
+        background-size: cover;
+    }
+    h1{
+        font-size: 60px;
+        padding-left: 40px;
+    }
+    h2{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    h3{
+        padding-left: 60px;
+    }
+    .icon-circle{
+        width: 25px;
+        height: 25px;
+    }
+    .icon-circle i{
+        font-size: 15px;
+    }
+    footer{
+        height: 6vh;
+    }
+    footer h4{
+        font-size: 15px;
+    }
+}
