@@ -93,7 +93,7 @@ footer h4 a:hover{
     }
     .banner{
         background-size: cover;
-        height: 90%;
+        height: 80%;
     }
     h1{
         font-size: 60px;
@@ -114,7 +114,7 @@ footer h4 a:hover{
         font-size: 15px;
     }
     footer{
-        height: 10%;
+        height: 20%;
     }
     footer h4{
         font-size: 15px;
