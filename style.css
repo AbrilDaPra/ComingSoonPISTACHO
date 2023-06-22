@@ -89,9 +89,11 @@ footer h4 a:hover{
 @media (max-width: 576px){
     .divider{
         width: 100%;
+        height: 100%;
     }
     .banner{
         background-size: cover;
+        height: 90%;
     }
     h1{
         font-size: 60px;
@@ -112,7 +114,7 @@ footer h4 a:hover{
         font-size: 15px;
     }
     footer{
-        height: 6vh;
+        height: 10%;
     }
     footer h4{
         font-size: 15px;
